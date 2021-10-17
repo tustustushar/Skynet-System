@@ -9,9 +9,9 @@ load_dotenv()
 que = {}
 admins = {}
 
-    API_ID_KEY = "draj is op"
-    API_HASH_KEY = "lol dal isee "  
-    STRING_SESSION = "ssyour"
+    API_ID_KEY = int(getenv("API_ID"))
+    API_HASH_KEY = getenv("API_HASH") 
+    STRING_SESSION = getenv("SESSION_NAME", "session")
     Skynet = ""
     ENFORCERS = ""
     Skynet_logs = ""
