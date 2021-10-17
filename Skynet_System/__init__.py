@@ -41,7 +41,6 @@ if ENV:
 
 session = aiohttp.ClientSession()
 
-MONGO_CLIENT = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
 
 from .client_class import SkynetClient
 
