@@ -43,12 +43,10 @@ else:
     API_ID_KEY = Config.API_ID_KEY
     API_HASH_KEY = Config.API_HASH_KEY
     STRING_SESSION = Config.STRING_SESSION
-    MONGO_DB_URL = Config.MONGO_DB_URL
-    with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
-        data = json.load
-    Skynet = data["1962664022"]
-    ENFORCERS = data["ENFORCERS"]
-    INSPECTORS = data["INSPECTORS"]
+    MONGO_DB_URL = Config.MONGO_DB_URL    
+    Skynet = Config.Skynet
+    ENFORCERS = Config.ENFORCERS
+    INSPECTORS = Config.INSPECTORS
     Skynet_logs = Config.Skynet_logs
     Skynet_approved_logs = Config.Skynet_approved_logs
     GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
