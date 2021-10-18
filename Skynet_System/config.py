@@ -6,6 +6,12 @@ Sibyl = ""
 Skynet = "Skynet"
 ENFORCERS = "ENFORCERS"
 INSPECTORS = "INSPECTORS"
-Sibyl_logs = "-1001675046141"
-Sibyl_approved_logs = "-1001675046141"
-GBAN_MSG_LOGS = "-1001675046141"
+Sibyl_logs = "Skynet_logs"
+Sibyl_approved_logs = "Skynet_approved_logs"
+GBAN_MSG_LOGS = "GBAN_MSG_LOGS"
+BOT_TOKEN = "BOT_TOKEN"
+
+    
+    
+    
+    
