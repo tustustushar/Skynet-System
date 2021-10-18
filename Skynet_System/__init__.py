@@ -51,9 +51,8 @@ else:
     Skynet_approved_logs = Config.Skynet_approved_logs
     GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
     BOT_TOKEN = Config.BOT_TOKEN
-
-INSPECTORS.extend(Skynet)
-ENFORCERS.extend(INSPECTORS)
+    INSPECTORS = Config.INSPECTORS
+    ENFORCERS = Config.ENFORCERS
 
 session = aiohttp.ClientSession()
 
