@@ -40,8 +40,8 @@ if ENV:
 else:
     import Skynet_System.config as Config
 
-    API_ID_KEY = Config.API_ID
-    API_HASH_KEY = Config.API_HASH
+    API_ID_KEY = Config.API_ID_KEY
+    API_HASH_KEY = Config.API_HASH_KEY
     STRING_SESSION = Config.STRING_SESSION
     MONGO_DB_URL = Config.MONGO_DB_URL
     with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
