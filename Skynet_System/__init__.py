@@ -46,7 +46,7 @@ else:
     MONGO_DB_URL = Config.MONGO_DB_URL
     with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
         data = json.load
-    Skynet = data["Skynet"]
+    Skynet = data["1962664022"]
     ENFORCERS = data["ENFORCERS"]
     INSPECTORS = data["INSPECTORS"]
     Skynet_logs = Config.Skynet_logs
